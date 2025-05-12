@@ -1,0 +1,312 @@
+* {
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.containr {
+  width: 100%;
+  height: 100%;
+  background-color: #f5f5f5;
+}
+
+.loginpage {
+  box-sizing: border-box;
+  max-width: 388px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 100px;
+  padding-bottom: 190px;
+}
+
+.logo {
+  width: 100%;
+  height: 34px;
+
+  display: block;
+  justify-items: center;
+}
+
+.textbox {
+  position: relative;
+}
+
+.quickloginbutton {
+  width: 340px;
+  height: 40px;
+  margin: 8px 0px 0px;
+
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.googlebutton {
+  border-bottom: #bcbdc0 1px solid;
+  border-right: #bcbdc0 1px solid;
+  border-radius: 5px;
+  width: 40px;
+  height: 40px;
+  background: url(https://statics.goorm.io/images/social/logo/googleLogo.svg)
+    center / 50% no-repeat;
+  background-color: #ffffff;
+}
+
+.kakaobutton {
+  border-bottom: #bcbdc0 1px solid;
+  border-right: #bcbdc0 1px solid;
+  border-radius: 5px;
+  width: 40px;
+  height: 40px;
+  background: url(https://statics.goorm.io/images/social/logo/kakaoLogo.svg)
+    center / 50% no-repeat;
+  background-color: #ffcd00;
+}
+
+.naverbutton {
+  border-bottom: #bcbdc0 1px solid;
+  border-right: #bcbdc0 1px solid;
+  border-radius: 5px;
+  width: 40px;
+  height: 40px;
+  background: url(https://statics.goorm.io/images/social/logo/naverLogo.svg)
+    center / 50% no-repeat;
+  background-color: #1dc800;
+}
+
+.githubbutton {
+  border-bottom: #bcbdc0 1px solid;
+  border-right: #bcbdc0 1px solid;
+  border-radius: 5px;
+  width: 40px;
+  height: 40px;
+  background: url(https://statics.goorm.io/images/social/logo/githubLogo.svg)
+    center / 50% no-repeat;
+  background-color: #221e1b;
+}
+
+.bitbuketbutton {
+  border-bottom: #bcbdc0 1px solid;
+  border-right: #bcbdc0 1px solid;
+  border-radius: 5px;
+  width: 40px;
+  height: 40px;
+  background: url(https://statics.goorm.io/images/social/logo/bitbucketLogo.svg)
+    center / 40% no-repeat;
+  background-color: #1f5081;
+}
+
+.paykobutton {
+  border-bottom: #bcbdc0 1px solid;
+  border-right: #bcbdc0 1px solid;
+  border-radius: 5px;
+  width: 40px;
+  height: 40px;
+  background: url(https://statics.goorm.io/images/social/logo/paycoLogo.svg)
+    center / 30% no-repeat;
+  background-color: #e7322d;
+}
+
+.textbar1 {
+  width: 340px;
+  height: 24px;
+  margin: 24px 0px;
+}
+
+.textline1 {
+  font-size: 14px;
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  color: #90929e;
+  text-align: center;
+  width: 340px;
+}
+
+.text1 {
+  font-size: 14px;
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  color: #313338;
+  margin-top: 3px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.text2 {
+  font-size: 14px;
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  color: #313338;
+  margin-top: 8px;
+}
+
+.inputdiv {
+  box-sizing: border-box;
+  width: auto;
+  height: 210px;
+
+  font-size: 14px;
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  color: #313338;
+  margin: 20px 0px 0px;
+
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.username {
+  box-sizing: border-box;
+  width: 340px;
+  height: 55px;
+  font-size: 16px;
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  color: #313338;
+  padding: 8.5px 12px;
+  background-color: white;
+  border: 1px solid #ced0da;
+  border-radius: 5px;
+  outline: none;
+}
+
+.password {
+  box-sizing: border-box;
+  width: 340px;
+  height: 55px;
+  font-size: 16px;
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  color: #313338;
+  padding: 8.5px 12px;
+  background-color: white;
+  border: 1px solid #ced0da;
+  border-radius: 5px;
+  outline: none;
+}
+
+.loginbutton {
+  box-sizing: border-box;
+  width: 340px;
+  height: 46px;
+  font-size: 16px;
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  color: white;
+  padding: 8.5px 12px;
+  background-color: #609ae9;
+  border: 1px solid #ced0da;
+  border-radius: 5px;
+}
+
+.checkbox {
+  font-size: 14px;
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  color: #313338;
+
+  display: flex;
+  justify-self: left;
+  align-items: center;
+  gap: 25px;
+  margin-right: 45px;
+}
+
+.text3,
+.bar {
+  width: auto;
+  display: flex;
+  justify-self: left;
+  align-items: center;
+  gap: 15px;
+}
+
+.checkbox1 {
+  width: auto;
+  display: flex;
+  justify-self: left;
+  align-items: center;
+  flex-direction: row;
+}
+
+.text4 {
+  font-size: 14px;
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  color: #313338;
+}
+
+.hr1 {
+  margin-top: 30px;
+  margin-bottom: 20ox;
+  color: #313338;
+}
+
+.text6box {
+  width: 100%;
+  height: auto;
+  margin: 24px 0px 0px;
+  padding: 16px 0px 0px;
+  position: relative;
+  border-top: 1px solid #e7e8ef;
+}
+
+.text6 {
+  width: 100%;
+  font-size: 12px;
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  color: #313338;
+  margin-top: 8px;
+  position: absolute;
+  text-align: center;
+}
+
+.linked1 {
+  color: #525463;
+  text-decoration: none;
+}
+
+.username:hover {
+  border: 1.2px solid #2a9cd3;
+}
+
+.password:hover {
+  border: 1.2px solid #2a9cd3;
+}
+
+.loginbutton:hover {
+  background-color: #467dc6;
+}
+
+.linked1:hover {
+  text-decoration: underline;
+}
+
+.username:focus {
+  box-shadow: #467dc6 0 0 4px;
+}
+
+.password:focus {
+  box-shadow: #467dc6 0 0 4px;
+}
+
+.loginbutton:focus {
+  box-shadow: #467dc6 0 0 4px;
+}
